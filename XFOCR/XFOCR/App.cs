@@ -4,25 +4,26 @@ using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
+using XFOCR.View;
 
 namespace XFOCR {
     public class App : Application {
         public App() {
-            // The root page of your application
-            var content = new ContentPage {
-                Title = "XFOCR",
-                Content = new StackLayout {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
-                    }
-                }
-            };
+			// The root page of your application
+			//var content = new ContentPage {
+			//    Title = "XFOCR",
+			//    Content = new StackLayout {
+			//        VerticalOptions = LayoutOptions.Center,
+			//        Children = {
+			//            new Label {
+			//                HorizontalTextAlignment = TextAlignment.Center,
+			//                Text = "Welcome to Xamarin Forms!"
+			//            }
+			//        }
+			//    }
+			//};
 
-            MainPage = new NavigationPage(content);
+			MainPage = new NavigationPage(new HomePage());// content);
         }
 
         protected override void OnStart() {

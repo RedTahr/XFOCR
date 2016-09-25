@@ -145,7 +145,7 @@
     <Compile Include="MainApplication.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service\TesseractService.cs" />
+    <Compile Include="Service\Tess.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\tessdata\eng.cube.bigrams" />
