@@ -97,6 +97,15 @@
     <ITunesArtwork Include="iTunesArtwork" />
     <ITunesArtwork Include="iTunesArtwork@2x" />
     <None Include="packages.config" />
+    <BundleResource Include="Resources\tessdata\eng.cube.bigrams" />
+    <BundleResource Include="Resources\tessdata\eng.cube.fold" />
+    <BundleResource Include="Resources\tessdata\eng.cube.lm" />
+    <BundleResource Include="Resources\tessdata\eng.cube.nn" />
+    <BundleResource Include="Resources\tessdata\eng.cube.params" />
+    <BundleResource Include="Resources\tessdata\eng.cube.size" />
+    <BundleResource Include="Resources\tessdata\eng.cube.word-freq" />
+    <BundleResource Include="Resources\tessdata\eng.tesseract_cube.nn" />
+    <BundleResource Include="Resources\tessdata\eng.traineddata" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
